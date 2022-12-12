@@ -1,0 +1,39 @@
+header {
+    text-align: center;
+}
+.submission-form {
+    max-width: 450px;
+    margin: 2rem auto;
+    border: 3px solid olivedrab;
+    padding: 2rem;
+    font-size: 16px;
+} 
+label {
+    display: block;
+}
+input, textarea {
+    display:block;
+    width:100%;
+    border:2px solid rgb(171, 64, 73);
+    padding:0.5rem;
+    font:16px;
+    /* border-radius:size5px; */
+}
+
+#submit-button {
+    border:0;
+    background:slateblue;
+    width: 100%;
+    padding:.6rem;
+    color:white;
+    margin:2rem auto;
+    width: 450px;
+    text-transform:uppercase;
+    cursor:pointer
+}
+
+#submit-button:hover {
+    background:rgb(38, 82, 30);
+}
+
+Comments
